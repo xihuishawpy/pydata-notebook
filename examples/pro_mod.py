@@ -2,8 +2,7 @@ from numpy.random import randn
 
 def add_and_sum(x, y):
     added = x + y
-    summed = added.sum(axis=1)
-    return summed
+    return added.sum(axis=1)
 
 def call_function():
     x = randn(1000, 1000)

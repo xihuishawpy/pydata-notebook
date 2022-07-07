@@ -10,4 +10,4 @@ def run_experiment(niter=100):
         results.append(max_eigenvalue)
     return results
 some_results = run_experiment()
-print('Largest one we saw: %s' % np.max(some_results))
+print(f'Largest one we saw: {np.max(some_results)}')
